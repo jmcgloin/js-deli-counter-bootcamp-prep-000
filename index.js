@@ -12,7 +12,7 @@ function currentLine(line) {
   let output = "The line is currently: ";
   line.map( ( c, i ) => {
     output += ( i + 1 ) + ". " + c;
-    if ( i < line.length - 1) { output += "," }
+    if ( i < line.length - 1) { output += ", " }
   })
   return output;
 }
