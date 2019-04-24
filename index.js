@@ -8,5 +8,5 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  const output = line.reduce( ( ))
+  const output = line.reduce( ( a, ))
 }
