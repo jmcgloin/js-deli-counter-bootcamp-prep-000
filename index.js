@@ -4,5 +4,5 @@ function takeANumber(line, name) {
 }
 
 function nowServing(line) {
-  return line.length == 0 ? "There is nobody waiting to be served!" : line.pop();
+  return line.length == 0 ? "There is nobody waiting to be served!" : `Currently serving ${line.pop()}`;
 }
