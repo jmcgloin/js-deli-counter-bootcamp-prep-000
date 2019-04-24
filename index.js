@@ -8,5 +8,11 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  const output = line.reduce( ( a, ))
+  if ( line.length == 0 ) { return "The line is currently empty." }
+  let output = "The line is currently: ";
+  line.map( ( c, i ) => {
+    output += i + ". " + c;
+    if ( i < line.length - 1) { output += "," }
+  })
+  return output;
 }
