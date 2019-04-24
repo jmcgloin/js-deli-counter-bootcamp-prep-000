@@ -6,3 +6,7 @@ function takeANumber(line, name) {
 function nowServing(line) {
   return line.length == 0 ? "There is nobody waiting to be served!" : `Currently serving ${line.shift()}.`;
 }
+
+function currentLine(line) {
+  
+}
