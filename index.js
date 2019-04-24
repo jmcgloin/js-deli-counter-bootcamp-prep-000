@@ -11,7 +11,7 @@ function currentLine(line) {
   if ( line.length == 0 ) { return "The line is currently empty." }
   let output = "The line is currently: ";
   line.map( ( c, i ) => {
-    output += i + ". " + c;
+    output += ( i + 1 ) + ". " + c;
     if ( i < line.length - 1) { output += "," }
   })
   return output;
